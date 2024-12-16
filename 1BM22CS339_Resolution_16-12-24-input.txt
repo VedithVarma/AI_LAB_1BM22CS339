@@ -1,0 +1,7 @@
+1
+Older(leela,oshin)
+4
+Mother(leela,oshin)
+Alive(leela)
+Mother(x,y) => Parent(x,y)
+Parent(x,y) & Alive(x) => Older(x,y)
